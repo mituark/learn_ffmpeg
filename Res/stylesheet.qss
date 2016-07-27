@@ -1,0 +1,52 @@
+*{
+  font-size:14px;
+  color:#4C4C4C;
+  font-family:"宋体";
+}
+
+QPushButton {
+    color:#FFFFFF;
+    background-color: #00CCFF;
+    border: 0px solid #FFFFFF;
+    padding: 1px;
+    font-family: "宋体";
+    font-size: 14px;
+    text-align: center;
+    width:80;
+    height:24;
+}
+
+QPushButton:hover, QPushButton:pressed , QPushButton:checked
+{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                 stop: 0 #666666, stop: 1.0 #666666,
+                                 stop: 1.0 #666666);
+    border-color: #4C4C4C;
+}
+
+QTableWidget
+{
+    background-color:#D6D3D3;
+    alternate-background-color:#FFFFFF;
+    selection-background-color:#666666;
+}
+
+QLineEdit
+{
+    color:#000000;
+    background-color:#FFFFFF;
+    border:1px solid #00CCFF;
+    border-left-style:none;
+    border-right-style:none;
+    border-top-style:none;
+}
+
+
+QToolButton:hover, QToolButton:pressed, QToolButton:checked
+{
+    background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                             stop: 0 #666666, stop: 1.0 #666666,
+                             stop: 1.0 #666666);
+
+    border-color: #4C4C4C;
+}
